@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">HoangCV2_MockTest</string>
+    <string name="fragmentListVehicle_txtHeader_text">Vehicle List</string>
+    <string name="fragmentListVehicle_txtHeaderDescription_text">This is your list vehicles</string>
+    <string name="fragmentListVehicle_txtEnterPrice_text">Enter Range Price To Search:</string>
+    <string name="fragmentListVehicle_btnSearch_text">SEARCH</string>
+    <string name="fragmentListVehicle_txtEnterId_text">Enter ID To Delete:</string>
+    <string name="fragmentListVehicle_btnDelete_text">DELETE</string>
+    <string name="fragmentListVehicle_txtDeleteWarning_text">This ID is not exist.Please Enter Another ID</string>
+    <string name="fragmentAddVehicle_txtEnterVehicleID_text">Please Enter Vehicle ID:</string>
+    <string name="fragmentAddVehicle_txtEnterVehicleName_text">Please Enter Vehicle Name:</string>
+    <string name="fragmentAddVehicle_txtEnterVehicleType_text">Please Enter Vehicle Type:</string>
+    <string name="fragmentAddVehicle_txtEnterVehiclePrice_text">Please Enter Vehicle Price:</string>
+    <string name="fragmentAddVehicle_btnAdd_text">ADD</string>
+    <string name="fragmentAddVehicle_btnUpdate_text">UPDATE</string>
+
+</resources>

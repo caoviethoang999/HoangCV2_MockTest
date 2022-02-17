@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //fragmentListVehicle
+    <dimen name="fragmentListVehicle_txtHeader_marginTop">15dp</dimen>
+    <dimen name="fragmentListVehicle_txtHeader_marginStart">30dp</dimen>
+    <dimen name="fragmentListVehicle_txtHeader_marginEnd">30dp</dimen>
+    <dimen name="fragmentListVehicle_txtHeader_textSize">30dp</dimen>
+
+    <dimen name="fragmentListVehicle_txtHeaderDescription_marginTop">5dp</dimen>
+    <dimen name="fragmentListVehicle_txtHeaderDescription_textSize">15dp</dimen>
+    <dimen name="fragmentListVehicle_txtHeaderDescription_marginStart">30dp</dimen>
+    <dimen name="fragmentListVehicle_txtHeaderDescription_marginEnd">30dp</dimen>
+    <dimen name="fragmentListVehicle_txtHeaderDescription_marginBottom">30dp</dimen>
+
+    <dimen name="fragmentListVehicle_txtEnterPrice_marginTop">15dp</dimen>
+    <dimen name="fragmentListVehicle_txtEnterPrice_marginStart">30dp</dimen>
+    <dimen name="fragmentListVehicle_txtEnterPrice_textSize">15dp</dimen>
+
+    <dimen name="fragmentListVehicle_edtSearchPrice_marginTop">5dp</dimen>
+    <dimen name="fragmentListVehicle_edtSearchPrice_marginStart">30dp</dimen>
+    <dimen name="fragmentListVehicle_edtSearchPrice_marginEnd">120dp</dimen>
+    <dimen name="fragmentListVehicle_edtSearchPrice_textSize">15dp</dimen>
+
+    <dimen name="fragmentListVehicle_btnSearch_marginTop">5dp</dimen>
+    <dimen name="fragmentListVehicle_btnSearch_marginStart">10dp</dimen>
+    <dimen name="fragmentListVehicle_btnSearch_marginEnd">15dp</dimen>
+
+    <dimen name="fragmentListVehicle_txtEnterID_marginTop">25dp</dimen>
+    <dimen name="fragmentListVehicle_txtEnterID_marginStart">30dp</dimen>
+    <dimen name="fragmentListVehicle_txtEnterID_textSize">15dp</dimen>
+
+    <dimen name="fragmentListVehicle_edtDeleteById_marginTop">5dp</dimen>
+    <dimen name="fragmentListVehicle_edtDeleteById_marginStart">30dp</dimen>
+    <dimen name="fragmentListVehicle_edtDeleteById_marginEnd">120dp</dimen>
+    <dimen name="fragmentListVehicle_edtDeleteById_textSize">15dp</dimen>
+
+    <dimen name="fragmentListVehicle_btnDelete_marginTop">5dp</dimen>
+    <dimen name="fragmentListVehicle_btnDelete_marginStart">10dp</dimen>
+    <dimen name="fragmentListVehicle_btnDelete_marginEnd">15dp</dimen>
+
+    <dimen name="fragmentListVehicle_txtDeleteWarning_marginTop">15dp</dimen>
+    <dimen name="fragmentListVehicle_txtDeleteWarning_marginStart">30dp</dimen>
+    <dimen name="fragmentListVehicle_txtDeleteWarning_marginEnd">30dp</dimen>
+    <dimen name="fragmentListVehicle_txtDeleteWarning_marginBottom">30dp</dimen>
+    <dimen name="fragmentListVehicle_txtDeleteWarning_textSize">15dp</dimen>
+
+
+    //itemVehicle
+    <dimen name="itemVehicle_txtVehicleId_textSize">12dp</dimen>
+    <dimen name="itemVehicle_txtVehicleId_marginTop">10dp</dimen>
+
+    <dimen name="itemVehicle_txtVehicleType_textSize">13dp</dimen>
+    <dimen name="itemVehicle_txtVehicleType_marginStart">10dp</dimen>
+    <dimen name="itemVehicle_txtVehicleType_marginEnd">10dp</dimen>
+
+    <dimen name="itemVehicle_txtVehicleName_textSize">16dp</dimen>
+
+    <dimen name="itemVehicle_txtVehiclePrice_textSize">16dp</dimen>
+    <dimen name="itemVehicle_txtVehiclePrice_marginTop">10dp</dimen>
+
+    <dimen name="itemVehicle_txtViewDetail_textSize">16dp</dimen>
+    <dimen name="itemVehicle_txtViewDetail_marginBottom">20dp</dimen>
+    <dimen name="itemVehicle_txtViewDetail_marginTop">10dp</dimen>
+
+    <dimen name="itemVehicle_constraintLayout_marginTop">25dp</dimen>
+    <dimen name="itemVehicle_constraintLayout_marginEnd">25dp</dimen>
+    <dimen name="itemVehicle_constraintLayout_marginStart">25dp</dimen>
+
+
+    //fragmentAddVehicle
+    <dimen name="fragmentAddVehicle_txtEnterVehicleId_marginTop">15dp</dimen>
+    <dimen name="fragmentAddVehicle_txtEnterVehicleId_marginStart">30dp</dimen>
+    <dimen name="fragmentAddVehicle_txtEnterVehicleId_textSize">15dp</dimen>
+
+    <dimen name="fragmentAddVehicle_edtVehicleId_marginTop">5dp</dimen>
+    <dimen name="fragmentAddVehicle_edtVehicleId_marginStart">30dp</dimen>
+    <dimen name="fragmentAddVehicle_edtVehicleId_marginEnd">30dp</dimen>
+    <dimen name="fragmentAddVehicle_edtVehicleId_textSize">15dp</dimen>
+
+    <dimen name="fragmentAddVehicle_txtEnterVehicleName_marginTop">15dp</dimen>
+    <dimen name="fragmentAddVehicle_txtEnterVehicleName_marginStart">30dp</dimen>
+    <dimen name="fragmentAddVehicle_txtEnterVehicleName_textSize">15dp</dimen>
+
+    <dimen name="fragmentAddVehicle_edtVehicleName_marginTop">5dp</dimen>
+    <dimen name="fragmentAddVehicle_edtVehicleName_marginStart">30dp</dimen>
+    <dimen name="fragmentAddVehicle_edtVehicleName_marginEnd">30dp</dimen>
+    <dimen name="fragmentAddVehicle_edtVehicleName_textSize">15dp</dimen>
+
+    <dimen name="fragmentAddVehicle_txtEnterVehicleType_marginTop">15dp</dimen>
+    <dimen name="fragmentAddVehicle_txtEnterVehicleType_marginStart">30dp</dimen>
+    <dimen name="fragmentAddVehicle_txtEnterVehicleType_textSize">15dp</dimen>
+
+    <dimen name="fragmentAddVehicle_edtVehicleType_marginTop">5dp</dimen>
+    <dimen name="fragmentAddVehicle_edtVehicleType_marginStart">30dp</dimen>
+    <dimen name="fragmentAddVehicle_edtVehicleType_marginEnd">30dp</dimen>
+    <dimen name="fragmentAddVehicle_edtVehicleType_textSize">15dp</dimen>
+
+    <dimen name="fragmentAddVehicle_txtEnterVehiclePrice_marginTop">15dp</dimen>
+    <dimen name="fragmentAddVehicle_txtEnterVehiclePrice_marginStart">30dp</dimen>
+    <dimen name="fragmentAddVehicle_txtEnterVehiclePrice_textSize">15dp</dimen>
+
+    <dimen name="fragmentAddVehicle_edtVehiclePrice_marginTop">5dp</dimen>
+    <dimen name="fragmentAddVehicle_edtVehiclePrice_marginStart">30dp</dimen>
+    <dimen name="fragmentAddVehicle_edtVehiclePrice_marginEnd">30dp</dimen>
+    <dimen name="fragmentAddVehicle_edtVehiclePrice_textSize">15dp</dimen>
+
+    <dimen name="fragmentAddVehicle_btnAdd_marginTop">15dp</dimen>
+    <dimen name="fragmentAddVehicle_btnAdd_marginBottom">30dp</dimen>
+
+    <dimen name="fragmentAddVehicle_btnUpdate_marginTop">15dp</dimen>
+    <dimen name="fragmentAddVehicle_btnUpdate_marginBottom">30dp</dimen>
+
+</resources>

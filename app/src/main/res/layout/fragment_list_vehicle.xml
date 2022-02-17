@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_layout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/topLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_toplayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/toolbar">
+
+            <TextView
+                android:id="@+id/txtHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/fragmentListVehicle_txtHeader_marginStart"
+                android:layout_marginTop="@dimen/fragmentListVehicle_txtHeader_marginTop"
+                android:layout_marginEnd="@dimen/fragmentListVehicle_txtHeader_marginEnd"
+                android:text="@string/fragmentListVehicle_txtHeader_text"
+                android:textColor="@color/base_grey"
+                android:textSize="@dimen/fragmentListVehicle_txtHeader_textSize"
+                app:layout_constraintEnd_toEndOf="@id/topLayout"
+                app:layout_constraintStart_toStartOf="@id/topLayout"
+                app:layout_constraintTop_toTopOf="@id/topLayout" />
+
+            <TextView
+                android:id="@+id/txtHeaderDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/fragmentListVehicle_txtHeader_marginStart"
+                android:layout_marginTop="@dimen/fragmentListVehicle_txtHeader_marginTop"
+                android:layout_marginEnd="@dimen/fragmentListVehicle_txtHeader_marginEnd"
+                android:layout_marginBottom="@dimen/fragmentListVehicle_txtHeaderDescription_marginBottom"
+                android:text="@string/fragmentListVehicle_txtHeaderDescription_text"
+                android:textColor="@color/medium_grey"
+                android:textSize="@dimen/fragmentListVehicle_txtHeaderDescription_textSize"
+                app:layout_constraintBottom_toBottomOf="@id/topLayout"
+                app:layout_constraintEnd_toEndOf="@id/topLayout"
+                app:layout_constraintStart_toStartOf="@id/topLayout"
+                app:layout_constraintTop_toBottomOf="@id/txtHeader" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/middleLayout"
+            android:background="@drawable/background_toplayout"
+            app:layout_constraintTop_toBottomOf="@id/topLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:id="@+id/txtEnterPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fragmentListVehicle_txtEnterPrice_text"
+                android:textSize="@dimen/fragmentListVehicle_txtEnterID_textSize"
+                android:textColor="@color/base_grey"
+                app:layout_constraintTop_toTopOf="@id/middleLayout"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="@dimen/fragmentListVehicle_txtEnterPrice_marginStart"
+                android:layout_marginTop="@dimen/fragmentListVehicle_txtEnterPrice_marginTop"/>
+            <EditText
+                android:inputType="number"
+                android:id="@+id/edtSearchPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/txtEnterPrice"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textSize="@dimen/fragmentListVehicle_edtSearchPrice_textSize"
+                android:layout_marginStart="@dimen/fragmentListVehicle_edtSearchPrice_marginStart"
+                android:layout_marginEnd="@dimen/fragmentListVehicle_edtSearchPrice_marginEnd"
+                android:layout_marginTop="@dimen/fragmentListVehicle_edtSearchPrice_marginTop"/>
+            <Button
+                android:id="@+id/btnSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fragmentListVehicle_btnSearch_text"
+                android:textColor="@color/base_grey"
+                android:backgroundTint="@color/electric_green"
+                app:layout_constraintTop_toBottomOf="@id/txtEnterPrice"
+                app:layout_constraintStart_toEndOf="@id/edtSearchPrice"
+                app:layout_constraintEnd_toEndOf="@id/middleLayout"
+                android:layout_marginTop="@dimen/fragmentListVehicle_btnSearch_marginTop"
+                android:layout_marginEnd="@dimen/fragmentListVehicle_btnSearch_marginEnd"
+                android:layout_marginStart="@dimen/fragmentListVehicle_btnSearch_marginStart"/>
+
+            <TextView
+                android:id="@+id/txtEnterId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fragmentListVehicle_txtEnterId_text"
+                android:textSize="@dimen/fragmentListVehicle_txtEnterID_textSize"
+                android:textColor="@color/base_grey"
+                app:layout_constraintTop_toBottomOf="@id/edtSearchPrice"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="@dimen/fragmentListVehicle_txtEnterID_marginStart"
+                android:layout_marginTop="@dimen/fragmentListVehicle_txtEnterID_marginTop"/>
+            <EditText
+                android:id="@+id/edtDeleteById"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/txtEnterId"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textSize="@dimen/fragmentListVehicle_edtDeleteById_textSize"
+                android:layout_marginStart="@dimen/fragmentListVehicle_edtDeleteById_marginStart"
+                android:layout_marginEnd="@dimen/fragmentListVehicle_edtDeleteById_marginEnd"
+                android:layout_marginTop="@dimen/fragmentListVehicle_edtDeleteById_marginTop"/>
+            <Button
+                android:id="@+id/btnDelete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fragmentListVehicle_btnDelete_text"
+                android:textColor="@color/base_grey"
+                android:backgroundTint="@color/electric_green"
+                app:layout_constraintTop_toBottomOf="@id/txtEnterId"
+                app:layout_constraintStart_toEndOf="@id/edtDeleteById"
+                app:layout_constraintEnd_toEndOf="@id/middleLayout"
+                android:layout_marginTop="@dimen/fragmentListVehicle_btnDelete_marginTop"
+                android:layout_marginEnd="@dimen/fragmentListVehicle_btnDelete_marginEnd"
+                android:layout_marginStart="@dimen/fragmentListVehicle_btnDelete_marginStart"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtDeleteWarning"
+                android:text="@string/fragmentListVehicle_txtDeleteWarning_text"
+                app:layout_constraintTop_toBottomOf="@+id/edtDeleteById"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="@id/middleLayout"
+                android:layout_marginTop="@dimen/fragmentListVehicle_txtDeleteWarning_marginTop"
+                android:layout_marginStart="@dimen/fragmentListVehicle_txtDeleteWarning_marginStart"
+                android:textSize="@dimen/fragmentListVehicle_txtDeleteWarning_textSize"
+                android:visibility="invisible"
+                android:layout_marginBottom="@dimen/fragmentListVehicle_txtDeleteWarning_marginBottom"
+                android:textColor="@color/dark_astra_pink"
+                android:layout_marginEnd="@dimen/fragmentListVehicle_txtDeleteWarning_marginEnd"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/bottomLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_bottomlayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/middleLayout">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewVehicle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                app:layout_constraintBottom_toBottomOf="@id/bottomLayout"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/bottomLayout" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

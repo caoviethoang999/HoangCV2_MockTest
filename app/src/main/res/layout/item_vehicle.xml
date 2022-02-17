@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/background_toplayout"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayoutLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/itemVehicle_constraintLayout_marginStart"
+        android:layout_marginTop="@dimen/itemVehicle_constraintLayout_marginTop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txtVehicleName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NULL"
+            android:textColor="@color/dark_grey"
+            android:textSize="@dimen/itemVehicle_txtVehicleName_textSize"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtVehiclePrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/itemVehicle_txtVehiclePrice_marginTop"
+            android:text="NULL"
+            android:textColor="@color/dark_grey"
+            android:textSize="@dimen/itemVehicle_txtVehiclePrice_textSize"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txtVehicleName" />
+
+        <TextView
+            android:id="@+id/txtViewDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/itemVehicle_txtViewDetail_marginTop"
+            android:layout_marginBottom="@dimen/itemVehicle_txtViewDetail_marginBottom"
+            android:text="View Detail"
+            android:textColor="@color/dark_electric_green"
+            android:textSize="@dimen/itemVehicle_txtViewDetail_textSize"
+            app:layout_constraintBottom_toBottomOf="@id/constraintLayoutLeft"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txtVehiclePrice" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayoutRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/itemVehicle_constraintLayout_marginTop"
+        android:layout_marginEnd="@dimen/itemVehicle_constraintLayout_marginEnd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+                android:id="@+id/txtVehicleType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/itemVehicle_txtVehicleType_marginStart"
+                android:layout_marginEnd="@dimen/itemVehicle_txtVehicleType_marginEnd"
+                android:text="NULL"
+                android:textColor="@color/base_grey"
+                android:textSize="@dimen/itemVehicle_txtVehicleType_textSize"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtVehicleID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/itemVehicle_txtVehicleId_marginTop"
+            android:text="NULL"
+            android:textColor="@color/dark_grey"
+            android:textSize="@dimen/itemVehicle_txtVehicleId_textSize"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txtVehicleType" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
